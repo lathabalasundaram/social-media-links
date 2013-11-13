@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css"> 
+		#socialMedia { 
+			height:207px; 
+			position: relative; 
+			margin-bottom:-140px; 
+			margin-top:27px; 
+			width: 41px; 
+			float: right; 
+			z-index: 3; 
+		} 
+		.socialmedia { 
+			min-width: 1060px; 
+			height: 0px; 
+			margin: 0 auto; 
+		} 
+	</style> 
+	</head>
+	<body>
+	<map name="sharemap"> 
+		<area target="_blank" tabindex="0" shape="rect" coords="10,10,42,45" title="Twitter" alt="Twitter" href="http://www.twitter.com" onclick="this.href=meteor.sharing.href('Twitter' );"> 
+		<area target="_blank" tabindex="0" shape="rect" coords="10,45,38,76" title="Facebook" alt="Facebook" href="http://www.facebook.com" onclick="this.href=meteor.sharing.href('Facebook');"> 
+		<area target="_blank" tabindex="0" shape="rect" coords="10,75,42,103" title="LinkedIn" alt="LinkedIn" href="http://www.linkedin.com" onclick="this.href=meteor.sharing.href('Linkedin' );"> 
+		<area target="_blank" tabindex="0" shape="rect" coords="10,104,42,133" title="digg" alt="digg" href="http://www.digg.com" onclick="this.href=meteor.sharing.href('Digg');"> 
+		<area target="_blank" tabindex="0" shape="rect" coords="10,132,42,161" title="del.icio.us" alt="del.icio.us" href="http://del.icio.us" onclick="this.href=meteor.sharing.href('del.icio.us');"> 
+		<area target="_blank" tabindex="0" shape="rect" coords="10,164,42,200" title="email" alt="email" href="mailto:" onclick="this.href=meteor.sharing.href('Email' );"> 
+	</map> 
+	<img id="socialMedia" src="http:// " alt="Share" usemap="#sharemap"> 
+	</body>
+	</html>
